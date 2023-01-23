@@ -11,19 +11,11 @@
 		A8A060B4297F3A4400BB55BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A060B3297F3A4400BB55BC /* ContentView.swift */; };
 		A8A060B6297F3A4600BB55BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8A060B5297F3A4600BB55BC /* Assets.xcassets */; };
 		A8A060B9297F3A4600BB55BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8A060B8297F3A4600BB55BC /* Preview Assets.xcassets */; };
-		A8A060C4297F3A4600BB55BC /* BabySitterKataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A060C3297F3A4600BB55BC /* BabySitterKataTests.swift */; };
-		A8A060CF297F3A4600BB55BC /* BabySitterKataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A060CE297F3A4600BB55BC /* BabySitterKataUITests.swift */; };
+		A8A060F2297F3E8800BB55BC /* BabySitterKataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A060F1297F3E8800BB55BC /* BabySitterKataTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A8A060C0297F3A4600BB55BC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A8A060A6297F3A4400BB55BC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A8A060AD297F3A4400BB55BC;
-			remoteInfo = BabySitterKata;
-		};
-		A8A060CB297F3A4600BB55BC /* PBXContainerItemProxy */ = {
+		A8A060F4297F3E8800BB55BC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A8A060A6297F3A4400BB55BC /* Project object */;
 			proxyType = 1;
@@ -39,12 +31,13 @@
 		A8A060B5297F3A4600BB55BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8A060B8297F3A4600BB55BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A8A060BA297F3A4600BB55BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A8A060BF297F3A4600BB55BC /* BabySitterKataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BabySitterKataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8A060C3297F3A4600BB55BC /* BabySitterKataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabySitterKataTests.swift; sourceTree = "<group>"; };
 		A8A060C5297F3A4600BB55BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A8A060CA297F3A4600BB55BC /* BabySitterKataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BabySitterKataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8A060CE297F3A4600BB55BC /* BabySitterKataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabySitterKataUITests.swift; sourceTree = "<group>"; };
 		A8A060D0297F3A4600BB55BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8A060EF297F3E8800BB55BC /* BabySitterKataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BabySitterKataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8A060F1297F3E8800BB55BC /* BabySitterKataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabySitterKataTests.swift; sourceTree = "<group>"; };
+		A8A060F3297F3E8800BB55BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,14 +48,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A8A060BC297F3A4600BB55BC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A8A060C7297F3A4600BB55BC /* Frameworks */ = {
+		A8A060EC297F3E8800BB55BC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,6 +64,7 @@
 				A8A060B0297F3A4400BB55BC /* BabySitterKata */,
 				A8A060C2297F3A4600BB55BC /* BabySitterKataTests */,
 				A8A060CD297F3A4600BB55BC /* BabySitterKataUITests */,
+				A8A060F0297F3E8800BB55BC /* BabySitterKataTests */,
 				A8A060AF297F3A4400BB55BC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,8 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				A8A060AE297F3A4400BB55BC /* BabySitterKata.app */,
-				A8A060BF297F3A4600BB55BC /* BabySitterKataTests.xctest */,
-				A8A060CA297F3A4600BB55BC /* BabySitterKataUITests.xctest */,
+				A8A060EF297F3E8800BB55BC /* BabySitterKataTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -130,6 +116,15 @@
 			path = BabySitterKataUITests;
 			sourceTree = "<group>";
 		};
+		A8A060F0297F3E8800BB55BC /* BabySitterKataTests */ = {
+			isa = PBXGroup;
+			children = (
+				A8A060F1297F3E8800BB55BC /* BabySitterKataTests.swift */,
+				A8A060F3297F3E8800BB55BC /* Info.plist */,
+			);
+			path = BabySitterKataTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,41 +145,23 @@
 			productReference = A8A060AE297F3A4400BB55BC /* BabySitterKata.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A8A060BE297F3A4600BB55BC /* BabySitterKataTests */ = {
+		A8A060EE297F3E8800BB55BC /* BabySitterKataTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A8A060D6297F3A4600BB55BC /* Build configuration list for PBXNativeTarget "BabySitterKataTests" */;
+			buildConfigurationList = A8A060F6297F3E8800BB55BC /* Build configuration list for PBXNativeTarget "BabySitterKataTests" */;
 			buildPhases = (
-				A8A060BB297F3A4600BB55BC /* Sources */,
-				A8A060BC297F3A4600BB55BC /* Frameworks */,
-				A8A060BD297F3A4600BB55BC /* Resources */,
+				A8A060EB297F3E8800BB55BC /* Sources */,
+				A8A060EC297F3E8800BB55BC /* Frameworks */,
+				A8A060ED297F3E8800BB55BC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A8A060C1297F3A4600BB55BC /* PBXTargetDependency */,
+				A8A060F5297F3E8800BB55BC /* PBXTargetDependency */,
 			);
 			name = BabySitterKataTests;
 			productName = BabySitterKataTests;
-			productReference = A8A060BF297F3A4600BB55BC /* BabySitterKataTests.xctest */;
+			productReference = A8A060EF297F3E8800BB55BC /* BabySitterKataTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		A8A060C9297F3A4600BB55BC /* BabySitterKataUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A8A060D9297F3A4600BB55BC /* Build configuration list for PBXNativeTarget "BabySitterKataUITests" */;
-			buildPhases = (
-				A8A060C6297F3A4600BB55BC /* Sources */,
-				A8A060C7297F3A4600BB55BC /* Frameworks */,
-				A8A060C8297F3A4600BB55BC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A8A060CC297F3A4600BB55BC /* PBXTargetDependency */,
-			);
-			name = BabySitterKataUITests;
-			productName = BabySitterKataUITests;
-			productReference = A8A060CA297F3A4600BB55BC /* BabySitterKataUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -198,11 +175,7 @@
 					A8A060AD297F3A4400BB55BC = {
 						CreatedOnToolsVersion = 12.4;
 					};
-					A8A060BE297F3A4600BB55BC = {
-						CreatedOnToolsVersion = 12.4;
-						TestTargetID = A8A060AD297F3A4400BB55BC;
-					};
-					A8A060C9297F3A4600BB55BC = {
+					A8A060EE297F3E8800BB55BC = {
 						CreatedOnToolsVersion = 12.4;
 						TestTargetID = A8A060AD297F3A4400BB55BC;
 					};
@@ -222,8 +195,7 @@
 			projectRoot = "";
 			targets = (
 				A8A060AD297F3A4400BB55BC /* BabySitterKata */,
-				A8A060BE297F3A4600BB55BC /* BabySitterKataTests */,
-				A8A060C9297F3A4600BB55BC /* BabySitterKataUITests */,
+				A8A060EE297F3E8800BB55BC /* BabySitterKataTests */,
 			);
 		};
 /* End PBXProject section */
@@ -238,14 +210,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A8A060BD297F3A4600BB55BC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A8A060C8297F3A4600BB55BC /* Resources */ = {
+		A8A060ED297F3E8800BB55BC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -264,34 +229,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A8A060BB297F3A4600BB55BC /* Sources */ = {
+		A8A060EB297F3E8800BB55BC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8A060C4297F3A4600BB55BC /* BabySitterKataTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A8A060C6297F3A4600BB55BC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A8A060CF297F3A4600BB55BC /* BabySitterKataUITests.swift in Sources */,
+				A8A060F2297F3E8800BB55BC /* BabySitterKataTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A8A060C1297F3A4600BB55BC /* PBXTargetDependency */ = {
+		A8A060F5297F3E8800BB55BC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A8A060AD297F3A4400BB55BC /* BabySitterKata */;
-			targetProxy = A8A060C0297F3A4600BB55BC /* PBXContainerItemProxy */;
-		};
-		A8A060CC297F3A4600BB55BC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A8A060AD297F3A4400BB55BC /* BabySitterKata */;
-			targetProxy = A8A060CB297F3A4600BB55BC /* PBXContainerItemProxy */;
+			targetProxy = A8A060F4297F3E8800BB55BC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -456,15 +408,13 @@
 			};
 			name = Release;
 		};
-		A8A060D7297F3A4600BB55BC /* Debug */ = {
+		A8A060F7297F3E8800BB55BC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6R6MQNLHPL;
 				INFOPLIST_FILE = BabySitterKataTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -478,15 +428,13 @@
 			};
 			name = Debug;
 		};
-		A8A060D8297F3A4600BB55BC /* Release */ = {
+		A8A060F8297F3E8800BB55BC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6R6MQNLHPL;
 				INFOPLIST_FILE = BabySitterKataTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -497,46 +445,6 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BabySitterKata.app/BabySitterKata";
-			};
-			name = Release;
-		};
-		A8A060DA297F3A4600BB55BC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6R6MQNLHPL;
-				INFOPLIST_FILE = BabySitterKataUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.NorthWoods.BabySitterKataUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = BabySitterKata;
-			};
-			name = Debug;
-		};
-		A8A060DB297F3A4600BB55BC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6R6MQNLHPL;
-				INFOPLIST_FILE = BabySitterKataUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.NorthWoods.BabySitterKataUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = BabySitterKata;
 			};
 			name = Release;
 		};
@@ -561,20 +469,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A8A060D6297F3A4600BB55BC /* Build configuration list for PBXNativeTarget "BabySitterKataTests" */ = {
+		A8A060F6297F3E8800BB55BC /* Build configuration list for PBXNativeTarget "BabySitterKataTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A8A060D7297F3A4600BB55BC /* Debug */,
-				A8A060D8297F3A4600BB55BC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A8A060D9297F3A4600BB55BC /* Build configuration list for PBXNativeTarget "BabySitterKataUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A8A060DA297F3A4600BB55BC /* Debug */,
-				A8A060DB297F3A4600BB55BC /* Release */,
+				A8A060F7297F3E8800BB55BC /* Debug */,
+				A8A060F8297F3E8800BB55BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
