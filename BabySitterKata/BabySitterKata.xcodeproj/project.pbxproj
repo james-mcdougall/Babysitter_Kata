@@ -7,66 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A8E0855F297F2E5600C1A860 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E0855E297F2E5600C1A860 /* AppDelegate.swift */; };
-		A8E08561297F2E5600C1A860 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E08560297F2E5600C1A860 /* SceneDelegate.swift */; };
-		A8E08563297F2E5600C1A860 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E08562297F2E5600C1A860 /* ViewController.swift */; };
-		A8E08566297F2E5600C1A860 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8E08564297F2E5600C1A860 /* Main.storyboard */; };
-		A8E08568297F2E5800C1A860 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8E08567297F2E5800C1A860 /* Assets.xcassets */; };
-		A8E0856B297F2E5800C1A860 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8E08569297F2E5800C1A860 /* LaunchScreen.storyboard */; };
-		A8E08576297F2E5900C1A860 /* BabySitterKataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E08575297F2E5900C1A860 /* BabySitterKataTests.swift */; };
-		A8E08581297F2E5900C1A860 /* BabySitterKataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E08580297F2E5900C1A860 /* BabySitterKataUITests.swift */; };
+		A8A060B2297F3A4400BB55BC /* BabySitterKataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A060B1297F3A4400BB55BC /* BabySitterKataApp.swift */; };
+		A8A060B4297F3A4400BB55BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A060B3297F3A4400BB55BC /* ContentView.swift */; };
+		A8A060B6297F3A4600BB55BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8A060B5297F3A4600BB55BC /* Assets.xcassets */; };
+		A8A060B9297F3A4600BB55BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8A060B8297F3A4600BB55BC /* Preview Assets.xcassets */; };
+		A8A060C4297F3A4600BB55BC /* BabySitterKataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A060C3297F3A4600BB55BC /* BabySitterKataTests.swift */; };
+		A8A060CF297F3A4600BB55BC /* BabySitterKataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A060CE297F3A4600BB55BC /* BabySitterKataUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A8E08572297F2E5900C1A860 /* PBXContainerItemProxy */ = {
+		A8A060C0297F3A4600BB55BC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A8E08553297F2E5600C1A860 /* Project object */;
+			containerPortal = A8A060A6297F3A4400BB55BC /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A8E0855A297F2E5600C1A860;
+			remoteGlobalIDString = A8A060AD297F3A4400BB55BC;
 			remoteInfo = BabySitterKata;
 		};
-		A8E0857D297F2E5900C1A860 /* PBXContainerItemProxy */ = {
+		A8A060CB297F3A4600BB55BC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A8E08553297F2E5600C1A860 /* Project object */;
+			containerPortal = A8A060A6297F3A4400BB55BC /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A8E0855A297F2E5600C1A860;
+			remoteGlobalIDString = A8A060AD297F3A4400BB55BC;
 			remoteInfo = BabySitterKata;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A8E0855B297F2E5600C1A860 /* BabySitterKata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabySitterKata.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A8E0855E297F2E5600C1A860 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A8E08560297F2E5600C1A860 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A8E08562297F2E5600C1A860 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A8E08565297F2E5600C1A860 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A8E08567297F2E5800C1A860 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A8E0856A297F2E5800C1A860 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A8E0856C297F2E5800C1A860 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A8E08571297F2E5900C1A860 /* BabySitterKataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BabySitterKataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A8E08575297F2E5900C1A860 /* BabySitterKataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabySitterKataTests.swift; sourceTree = "<group>"; };
-		A8E08577297F2E5900C1A860 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A8E0857C297F2E5900C1A860 /* BabySitterKataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BabySitterKataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A8E08580297F2E5900C1A860 /* BabySitterKataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabySitterKataUITests.swift; sourceTree = "<group>"; };
-		A8E08582297F2E5900C1A860 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8A060AE297F3A4400BB55BC /* BabySitterKata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabySitterKata.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8A060B1297F3A4400BB55BC /* BabySitterKataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabySitterKataApp.swift; sourceTree = "<group>"; };
+		A8A060B3297F3A4400BB55BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A8A060B5297F3A4600BB55BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8A060B8297F3A4600BB55BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A8A060BA297F3A4600BB55BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8A060BF297F3A4600BB55BC /* BabySitterKataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BabySitterKataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8A060C3297F3A4600BB55BC /* BabySitterKataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabySitterKataTests.swift; sourceTree = "<group>"; };
+		A8A060C5297F3A4600BB55BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8A060CA297F3A4600BB55BC /* BabySitterKataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BabySitterKataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8A060CE297F3A4600BB55BC /* BabySitterKataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabySitterKataUITests.swift; sourceTree = "<group>"; };
+		A8A060D0297F3A4600BB55BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A8E08558297F2E5600C1A860 /* Frameworks */ = {
+		A8A060AB297F3A4400BB55BC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A8E0856E297F2E5900C1A860 /* Frameworks */ = {
+		A8A060BC297F3A4600BB55BC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A8E08579297F2E5900C1A860 /* Frameworks */ = {
+		A8A060C7297F3A4600BB55BC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,54 +72,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A8E08552297F2E5600C1A860 = {
+		A8A060A5297F3A4400BB55BC = {
 			isa = PBXGroup;
 			children = (
-				A8E0855D297F2E5600C1A860 /* BabySitterKata */,
-				A8E08574297F2E5900C1A860 /* BabySitterKataTests */,
-				A8E0857F297F2E5900C1A860 /* BabySitterKataUITests */,
-				A8E0855C297F2E5600C1A860 /* Products */,
+				A8A060B0297F3A4400BB55BC /* BabySitterKata */,
+				A8A060C2297F3A4600BB55BC /* BabySitterKataTests */,
+				A8A060CD297F3A4600BB55BC /* BabySitterKataUITests */,
+				A8A060AF297F3A4400BB55BC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A8E0855C297F2E5600C1A860 /* Products */ = {
+		A8A060AF297F3A4400BB55BC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A8E0855B297F2E5600C1A860 /* BabySitterKata.app */,
-				A8E08571297F2E5900C1A860 /* BabySitterKataTests.xctest */,
-				A8E0857C297F2E5900C1A860 /* BabySitterKataUITests.xctest */,
+				A8A060AE297F3A4400BB55BC /* BabySitterKata.app */,
+				A8A060BF297F3A4600BB55BC /* BabySitterKataTests.xctest */,
+				A8A060CA297F3A4600BB55BC /* BabySitterKataUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A8E0855D297F2E5600C1A860 /* BabySitterKata */ = {
+		A8A060B0297F3A4400BB55BC /* BabySitterKata */ = {
 			isa = PBXGroup;
 			children = (
-				A8E0855E297F2E5600C1A860 /* AppDelegate.swift */,
-				A8E08560297F2E5600C1A860 /* SceneDelegate.swift */,
-				A8E08562297F2E5600C1A860 /* ViewController.swift */,
-				A8E08564297F2E5600C1A860 /* Main.storyboard */,
-				A8E08567297F2E5800C1A860 /* Assets.xcassets */,
-				A8E08569297F2E5800C1A860 /* LaunchScreen.storyboard */,
-				A8E0856C297F2E5800C1A860 /* Info.plist */,
+				A8A060B1297F3A4400BB55BC /* BabySitterKataApp.swift */,
+				A8A060B3297F3A4400BB55BC /* ContentView.swift */,
+				A8A060B5297F3A4600BB55BC /* Assets.xcassets */,
+				A8A060BA297F3A4600BB55BC /* Info.plist */,
+				A8A060B7297F3A4600BB55BC /* Preview Content */,
 			);
 			path = BabySitterKata;
 			sourceTree = "<group>";
 		};
-		A8E08574297F2E5900C1A860 /* BabySitterKataTests */ = {
+		A8A060B7297F3A4600BB55BC /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				A8E08575297F2E5900C1A860 /* BabySitterKataTests.swift */,
-				A8E08577297F2E5900C1A860 /* Info.plist */,
+				A8A060B8297F3A4600BB55BC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A8A060C2297F3A4600BB55BC /* BabySitterKataTests */ = {
+			isa = PBXGroup;
+			children = (
+				A8A060C3297F3A4600BB55BC /* BabySitterKataTests.swift */,
+				A8A060C5297F3A4600BB55BC /* Info.plist */,
 			);
 			path = BabySitterKataTests;
 			sourceTree = "<group>";
 		};
-		A8E0857F297F2E5900C1A860 /* BabySitterKataUITests */ = {
+		A8A060CD297F3A4600BB55BC /* BabySitterKataUITests */ = {
 			isa = PBXGroup;
 			children = (
-				A8E08580297F2E5900C1A860 /* BabySitterKataUITests.swift */,
-				A8E08582297F2E5900C1A860 /* Info.plist */,
+				A8A060CE297F3A4600BB55BC /* BabySitterKataUITests.swift */,
+				A8A060D0297F3A4600BB55BC /* Info.plist */,
 			);
 			path = BabySitterKataUITests;
 			sourceTree = "<group>";
@@ -131,13 +133,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A8E0855A297F2E5600C1A860 /* BabySitterKata */ = {
+		A8A060AD297F3A4400BB55BC /* BabySitterKata */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A8E08585297F2E5900C1A860 /* Build configuration list for PBXNativeTarget "BabySitterKata" */;
+			buildConfigurationList = A8A060D3297F3A4600BB55BC /* Build configuration list for PBXNativeTarget "BabySitterKata" */;
 			buildPhases = (
-				A8E08557297F2E5600C1A860 /* Sources */,
-				A8E08558297F2E5600C1A860 /* Frameworks */,
-				A8E08559297F2E5600C1A860 /* Resources */,
+				A8A060AA297F3A4400BB55BC /* Sources */,
+				A8A060AB297F3A4400BB55BC /* Frameworks */,
+				A8A060AC297F3A4400BB55BC /* Resources */,
 			);
 			buildRules = (
 			);
@@ -145,68 +147,68 @@
 			);
 			name = BabySitterKata;
 			productName = BabySitterKata;
-			productReference = A8E0855B297F2E5600C1A860 /* BabySitterKata.app */;
+			productReference = A8A060AE297F3A4400BB55BC /* BabySitterKata.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A8E08570297F2E5900C1A860 /* BabySitterKataTests */ = {
+		A8A060BE297F3A4600BB55BC /* BabySitterKataTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A8E08588297F2E5900C1A860 /* Build configuration list for PBXNativeTarget "BabySitterKataTests" */;
+			buildConfigurationList = A8A060D6297F3A4600BB55BC /* Build configuration list for PBXNativeTarget "BabySitterKataTests" */;
 			buildPhases = (
-				A8E0856D297F2E5900C1A860 /* Sources */,
-				A8E0856E297F2E5900C1A860 /* Frameworks */,
-				A8E0856F297F2E5900C1A860 /* Resources */,
+				A8A060BB297F3A4600BB55BC /* Sources */,
+				A8A060BC297F3A4600BB55BC /* Frameworks */,
+				A8A060BD297F3A4600BB55BC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A8E08573297F2E5900C1A860 /* PBXTargetDependency */,
+				A8A060C1297F3A4600BB55BC /* PBXTargetDependency */,
 			);
 			name = BabySitterKataTests;
 			productName = BabySitterKataTests;
-			productReference = A8E08571297F2E5900C1A860 /* BabySitterKataTests.xctest */;
+			productReference = A8A060BF297F3A4600BB55BC /* BabySitterKataTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A8E0857B297F2E5900C1A860 /* BabySitterKataUITests */ = {
+		A8A060C9297F3A4600BB55BC /* BabySitterKataUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A8E0858B297F2E5900C1A860 /* Build configuration list for PBXNativeTarget "BabySitterKataUITests" */;
+			buildConfigurationList = A8A060D9297F3A4600BB55BC /* Build configuration list for PBXNativeTarget "BabySitterKataUITests" */;
 			buildPhases = (
-				A8E08578297F2E5900C1A860 /* Sources */,
-				A8E08579297F2E5900C1A860 /* Frameworks */,
-				A8E0857A297F2E5900C1A860 /* Resources */,
+				A8A060C6297F3A4600BB55BC /* Sources */,
+				A8A060C7297F3A4600BB55BC /* Frameworks */,
+				A8A060C8297F3A4600BB55BC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A8E0857E297F2E5900C1A860 /* PBXTargetDependency */,
+				A8A060CC297F3A4600BB55BC /* PBXTargetDependency */,
 			);
 			name = BabySitterKataUITests;
 			productName = BabySitterKataUITests;
-			productReference = A8E0857C297F2E5900C1A860 /* BabySitterKataUITests.xctest */;
+			productReference = A8A060CA297F3A4600BB55BC /* BabySitterKataUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A8E08553297F2E5600C1A860 /* Project object */ = {
+		A8A060A6297F3A4400BB55BC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					A8E0855A297F2E5600C1A860 = {
+					A8A060AD297F3A4400BB55BC = {
 						CreatedOnToolsVersion = 12.4;
 					};
-					A8E08570297F2E5900C1A860 = {
+					A8A060BE297F3A4600BB55BC = {
 						CreatedOnToolsVersion = 12.4;
-						TestTargetID = A8E0855A297F2E5600C1A860;
+						TestTargetID = A8A060AD297F3A4400BB55BC;
 					};
-					A8E0857B297F2E5900C1A860 = {
+					A8A060C9297F3A4600BB55BC = {
 						CreatedOnToolsVersion = 12.4;
-						TestTargetID = A8E0855A297F2E5600C1A860;
+						TestTargetID = A8A060AD297F3A4400BB55BC;
 					};
 				};
 			};
-			buildConfigurationList = A8E08556297F2E5600C1A860 /* Build configuration list for PBXProject "BabySitterKata" */;
+			buildConfigurationList = A8A060A9297F3A4400BB55BC /* Build configuration list for PBXProject "BabySitterKata" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -214,37 +216,36 @@
 				en,
 				Base,
 			);
-			mainGroup = A8E08552297F2E5600C1A860;
-			productRefGroup = A8E0855C297F2E5600C1A860 /* Products */;
+			mainGroup = A8A060A5297F3A4400BB55BC;
+			productRefGroup = A8A060AF297F3A4400BB55BC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A8E0855A297F2E5600C1A860 /* BabySitterKata */,
-				A8E08570297F2E5900C1A860 /* BabySitterKataTests */,
-				A8E0857B297F2E5900C1A860 /* BabySitterKataUITests */,
+				A8A060AD297F3A4400BB55BC /* BabySitterKata */,
+				A8A060BE297F3A4600BB55BC /* BabySitterKataTests */,
+				A8A060C9297F3A4600BB55BC /* BabySitterKataUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A8E08559297F2E5600C1A860 /* Resources */ = {
+		A8A060AC297F3A4400BB55BC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8E0856B297F2E5800C1A860 /* LaunchScreen.storyboard in Resources */,
-				A8E08568297F2E5800C1A860 /* Assets.xcassets in Resources */,
-				A8E08566297F2E5600C1A860 /* Main.storyboard in Resources */,
+				A8A060B9297F3A4600BB55BC /* Preview Assets.xcassets in Resources */,
+				A8A060B6297F3A4600BB55BC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A8E0856F297F2E5900C1A860 /* Resources */ = {
+		A8A060BD297F3A4600BB55BC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A8E0857A297F2E5900C1A860 /* Resources */ = {
+		A8A060C8297F3A4600BB55BC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -254,68 +255,48 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A8E08557297F2E5600C1A860 /* Sources */ = {
+		A8A060AA297F3A4400BB55BC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8E08563297F2E5600C1A860 /* ViewController.swift in Sources */,
-				A8E0855F297F2E5600C1A860 /* AppDelegate.swift in Sources */,
-				A8E08561297F2E5600C1A860 /* SceneDelegate.swift in Sources */,
+				A8A060B4297F3A4400BB55BC /* ContentView.swift in Sources */,
+				A8A060B2297F3A4400BB55BC /* BabySitterKataApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A8E0856D297F2E5900C1A860 /* Sources */ = {
+		A8A060BB297F3A4600BB55BC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8E08576297F2E5900C1A860 /* BabySitterKataTests.swift in Sources */,
+				A8A060C4297F3A4600BB55BC /* BabySitterKataTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A8E08578297F2E5900C1A860 /* Sources */ = {
+		A8A060C6297F3A4600BB55BC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8E08581297F2E5900C1A860 /* BabySitterKataUITests.swift in Sources */,
+				A8A060CF297F3A4600BB55BC /* BabySitterKataUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A8E08573297F2E5900C1A860 /* PBXTargetDependency */ = {
+		A8A060C1297F3A4600BB55BC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A8E0855A297F2E5600C1A860 /* BabySitterKata */;
-			targetProxy = A8E08572297F2E5900C1A860 /* PBXContainerItemProxy */;
+			target = A8A060AD297F3A4400BB55BC /* BabySitterKata */;
+			targetProxy = A8A060C0297F3A4600BB55BC /* PBXContainerItemProxy */;
 		};
-		A8E0857E297F2E5900C1A860 /* PBXTargetDependency */ = {
+		A8A060CC297F3A4600BB55BC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A8E0855A297F2E5600C1A860 /* BabySitterKata */;
-			targetProxy = A8E0857D297F2E5900C1A860 /* PBXContainerItemProxy */;
+			target = A8A060AD297F3A4400BB55BC /* BabySitterKata */;
+			targetProxy = A8A060CB297F3A4600BB55BC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		A8E08564297F2E5600C1A860 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A8E08565297F2E5600C1A860 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A8E08569297F2E5800C1A860 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A8E0856A297F2E5800C1A860 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		A8E08583297F2E5900C1A860 /* Debug */ = {
+		A8A060D1297F3A4600BB55BC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -376,7 +357,7 @@
 			};
 			name = Debug;
 		};
-		A8E08584297F2E5900C1A860 /* Release */ = {
+		A8A060D2297F3A4600BB55BC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -431,14 +412,17 @@
 			};
 			name = Release;
 		};
-		A8E08586297F2E5900C1A860 /* Debug */ = {
+		A8A060D4297F3A4600BB55BC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BabySitterKata/Preview Content\"";
 				DEVELOPMENT_TEAM = 6R6MQNLHPL;
+				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = BabySitterKata/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,14 +434,17 @@
 			};
 			name = Debug;
 		};
-		A8E08587297F2E5900C1A860 /* Release */ = {
+		A8A060D5297F3A4600BB55BC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BabySitterKata/Preview Content\"";
 				DEVELOPMENT_TEAM = 6R6MQNLHPL;
+				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = BabySitterKata/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -469,7 +456,7 @@
 			};
 			name = Release;
 		};
-		A8E08589297F2E5900C1A860 /* Debug */ = {
+		A8A060D7297F3A4600BB55BC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -477,7 +464,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6R6MQNLHPL;
 				INFOPLIST_FILE = BabySitterKataTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -491,7 +478,7 @@
 			};
 			name = Debug;
 		};
-		A8E0858A297F2E5900C1A860 /* Release */ = {
+		A8A060D8297F3A4600BB55BC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -499,7 +486,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6R6MQNLHPL;
 				INFOPLIST_FILE = BabySitterKataTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -513,7 +500,7 @@
 			};
 			name = Release;
 		};
-		A8E0858C297F2E5900C1A860 /* Debug */ = {
+		A8A060DA297F3A4600BB55BC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -533,7 +520,7 @@
 			};
 			name = Debug;
 		};
-		A8E0858D297F2E5900C1A860 /* Release */ = {
+		A8A060DB297F3A4600BB55BC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -556,43 +543,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A8E08556297F2E5600C1A860 /* Build configuration list for PBXProject "BabySitterKata" */ = {
+		A8A060A9297F3A4400BB55BC /* Build configuration list for PBXProject "BabySitterKata" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A8E08583297F2E5900C1A860 /* Debug */,
-				A8E08584297F2E5900C1A860 /* Release */,
+				A8A060D1297F3A4600BB55BC /* Debug */,
+				A8A060D2297F3A4600BB55BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A8E08585297F2E5900C1A860 /* Build configuration list for PBXNativeTarget "BabySitterKata" */ = {
+		A8A060D3297F3A4600BB55BC /* Build configuration list for PBXNativeTarget "BabySitterKata" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A8E08586297F2E5900C1A860 /* Debug */,
-				A8E08587297F2E5900C1A860 /* Release */,
+				A8A060D4297F3A4600BB55BC /* Debug */,
+				A8A060D5297F3A4600BB55BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A8E08588297F2E5900C1A860 /* Build configuration list for PBXNativeTarget "BabySitterKataTests" */ = {
+		A8A060D6297F3A4600BB55BC /* Build configuration list for PBXNativeTarget "BabySitterKataTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A8E08589297F2E5900C1A860 /* Debug */,
-				A8E0858A297F2E5900C1A860 /* Release */,
+				A8A060D7297F3A4600BB55BC /* Debug */,
+				A8A060D8297F3A4600BB55BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A8E0858B297F2E5900C1A860 /* Build configuration list for PBXNativeTarget "BabySitterKataUITests" */ = {
+		A8A060D9297F3A4600BB55BC /* Build configuration list for PBXNativeTarget "BabySitterKataUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A8E0858C297F2E5900C1A860 /* Debug */,
-				A8E0858D297F2E5900C1A860 /* Release */,
+				A8A060DA297F3A4600BB55BC /* Debug */,
+				A8A060DB297F3A4600BB55BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A8E08553297F2E5600C1A860 /* Project object */;
+	rootObject = A8A060A6297F3A4400BB55BC /* Project object */;
 }
